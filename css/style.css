@@ -18,7 +18,8 @@ a:link, a:visited {
 	color: #ffffff;
 	text-decoration: none;
 	background: #152094;
-	padding: 5px;
+	padding: 10px;
+	border-radius: 10px;
 	
 }
 
@@ -28,7 +29,7 @@ a:hover, a:active {
 	color: #ffffff;
 	text-decoration: none;
 	background: #5862C7;
-	padding: 5px;
-	
+	padding: 10px;
+	border-radius: 10px;
 }
 
