@@ -15,8 +15,11 @@ body {
 a:link, a:visited {
 	font-weight: normal;
 	text-transform: uppercase;
-	color: #136B5B;
+	color: #ffffff;
 	text-decoration: none;
+	background: #152094;
+	padding: 5px;
+	
 }
 
 a:hover, a:active {
@@ -24,4 +27,8 @@ a:hover, a:active {
 	text-transform: uppercase;
 	color: #ffffff;
 	text-decoration: none;
+	background: #5862C7;
+	padding: 5px;
+	
 }
+
