@@ -38,12 +38,14 @@ a#next:link, a#next:visited {
 	display: block;
 	width: 100px;
 	height: 60px;
-	background: url('images/button-next.png');
+	background: url('../images/button-next.png');
+	padding: 0;
 }
 
 a#next:hover, a#next:active {
 	display: block;
 	width: 100px;
 	height: 60px;
-	background: url('images/button-next.png');
+	background: url('../images/button-next.png');
+	padding: 0;
 }
