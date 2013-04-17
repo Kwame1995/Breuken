@@ -34,3 +34,16 @@ a:hover, a:active {
 	border-radius: 15px;
 }
 
+a#next:link, a#next:visited {
+	display: block;
+	width: 100px;
+	height: 60px;
+	background: url('images/button-next.png');
+}
+
+a#next:hover, a#next:active {
+	display: block;
+	width: 100px;
+	height: 60px;
+	background: url('images/button-next.png');
+}
