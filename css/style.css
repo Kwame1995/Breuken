@@ -19,7 +19,7 @@ a:link, a:visited {
 	text-decoration: none;
 	background: #152094;
 	padding: 10px;
-	border-radius: 10px;
+	border-radius: 15px;
 	
 	
 }
@@ -31,6 +31,6 @@ a:hover, a:active {
 	text-decoration: none;
 	background: #5862C7;
 	padding: 10px;
-	border-radius: 10px;
+	border-radius: 15px;
 }
 
