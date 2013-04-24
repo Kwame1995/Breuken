@@ -1,7 +1,7 @@
 body {
 	font-family: 'Helvetica Neue';
-	background: #266BC7;
-	color: #ffffff;
+	background: #C7B773;
+	color: #778691;
 	font-size: 18px;
 }
 
@@ -17,9 +17,9 @@ a:link, a:visited {
 	text-transform: uppercase;
 	color: #ffffff;
 	text-decoration: none;
-	background: #152094;
-	padding: 10px;
-	border-radius: 15px;
+	background: #B1C2B3;
+	padding: 3px;
+	border-radius: 3px;
 	
 	
 }
@@ -29,23 +29,7 @@ a:hover, a:active {
 	text-transform: uppercase;
 	color: #ffffff;
 	text-decoration: none;
-	background: #5862C7;
-	padding: 10px;
-	border-radius: 15px;
-}
-
-a#next:link, a#next:visited {
-	display: block;
-	width: 100px;
-	height: 60px;
-	background: url('../images/buttonnext.png');
-	padding: 0;
-}
-
-a#next:hover, a#next:active {
-	display: block;
-	width: 100px;
-	height: 60px;
-	background: url('../images/button-next.png');
-	padding: 0;
+	background: #B1C2B3;
+	padding: 3px;
+	border-radius: 3px;
 }
