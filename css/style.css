@@ -1,7 +1,7 @@
 body {
 	font-family: 'Helvetica Neue';
-	background: #C7B773;
-	color: #778691;
+	background: #F5FCD0;
+	color: #636DE6;
 	font-size: 18px;
 }
 
@@ -17,7 +17,7 @@ a:link, a:visited {
 	text-transform: uppercase;
 	color: #ffffff;
 	text-decoration: none;
-	background: #B1C2B3;
+	background: #323232;
 	padding: 3px;
 	border-radius: 3px;
 	
@@ -29,7 +29,7 @@ a:hover, a:active {
 	text-transform: uppercase;
 	color: #ffffff;
 	text-decoration: none;
-	background: #B1C2B3;
+	background: #646464;
 	padding: 3px;
 	border-radius: 3px;
 }
