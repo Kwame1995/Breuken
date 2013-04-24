@@ -21,11 +21,60 @@
 		<div id="main-container">
 			<script>
 				function validateAnswers() {
+					var vraag1 = $('#vraag1').val();
+					var vraag2 = $('#vraag2').val();
+					var vraag3 = $('#vraag3').val();
+					var vraag4 = $('#vraag4').val();
+					var vraag5 = $('#vraag5').val();
+					var vraag6 = $('#vraag6').val();
+					var vraag7 = $('#vraag7').val();
+					var vraag8 = $('#vraag8').val();
 					
+					if (vraag1 == '5/6') {
+						goodAnswer($('#pVraag1'));
+					} else {
+						wrongAnswer($('#pVraag1'));
+					}
+					
+					if (vraag2 == '5/6') {
+						goodAnswer($('#pVraag2'));
+					} else {
+						wrongAnswer($('#pVraag2'));
+					}
+					
+					if (vraag3 == '5/6') {
+						goodAnswer($('#pVraag3'));
+					} else {
+						wrongAnswer($('#pVraag3'));
+					}
+					
+					if (vraag4 == '5/6') {
+						goodAnswer($('#pVraag4'));
+					} else {
+						wrongAnswer($('#pVraag4'));
+					}
+					
+					if (vraag5 == '5/6') {
+						goodAnswer($('#pVraag5'));
+					} else {
+						wrongAnswer($('#pVraag5'));
+					}
+					
+					if (vraag6 == '5/6') {
+						goodAnswer($('#pVraag6'));
+					} else {
+						wrongAnswer($('#pVraag6'));
+					}
+					
+					if (vraag7 == '5/6') {
+						goodAnswer($('#pVraag2'));
+					} else {
+						wrongAnswer($('#pVraag2'));
+					}
 				}
 				
 				function wrongAnswer(paragraph) {
-				
+					
 				}
 				
 				function goodAnswer (paragraph) [
@@ -45,7 +94,7 @@
 			<p id="pVraag1">7) 3/5 : 1/2 = <input id="vraag7" class="antwoord" /></p>
 			<p id="pVraag1">8) 4/7 : 3/4 = <input id="vraag8" class="antwoord" /></p>
 			
-			<p><a href="answer.html" data-transition="flip"> Antwoorden </a></p>						
+			<p><a href="#" onclick="validateAnswers()" data-transition="flip"> Controleren </a></p>						
 			<a href="inhoud.html" data-transition="flip">Terug naar inhoud</a>
 		</div>
 	</body>
