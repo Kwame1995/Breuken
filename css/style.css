@@ -8,7 +8,6 @@ body {
 #main-container {
 	margin-top: 150px;
 	text-align: center;
-	width: 75%;
 }
 
 .ui-page { -webkit-backface-visibility: hidden; }
@@ -21,8 +20,6 @@ a:link, a:visited {
 	background: #323232;
 	padding: 3px;
 	border-radius: 3px;
-	
-	
 }
 
 a:hover, a:active {
@@ -35,6 +32,9 @@ a:hover, a:active {
 	border-radius: 3px;
 }
 
-input.antwoord {
+#main-container input.antwoord {
 	width: 100px;
+	display: inline;
+	background: #fff;
+	color: #000;
 }
